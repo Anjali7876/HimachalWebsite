@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+
+        * {
+            margin: 0%;
+            padding: 0%;
+           
+        }
+        .form{
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            box-sizing: border-box;
+            padding:0;
+
+        }
+       
+        .style a{
+            text-decoration: none;
+        }
+       
+        .header ul li a:hover {
+    color: rgb(235, 235, 7);
+
+
+}
+ .d-block{
+    height:630px;
+}
+
+.hover-line::after {
+    content: " ";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(14, 101, 101);
+    transition: width .5s;
+
+}
+.navbar-nav li{
+    font-size: 20px;
+    font-weight: 500;
+}
+/* .modal-height{
+    height:380px;
+  
+} */
+.modal-height img{
+   box-sizing: border-box;
+}
+.hover-line:hover::after {
+    width: 100%;
+    transition: width .5s;
+}
+ 
+
+div .row{
+    box-sizing:border-box;
+}
+section div nav{
+    position: sticky;
+    
+
+
+}  
+.bothicon{
+    width:95px;
+    z-index:99999999;
+    padding:10px;
+    float:right;
+    position:fixed;
+    right:1%;
+    bottom:20px;
+    margin:2px;
+   
+}
+#youtubeicon{
+    /* height:70px; */
+    /* width:60px; */
+    border-radius:50%;
+    height:60px;
+    width:70px;
+    background-color:rgb(223, 217, 217);
+    
+   
+}
+.card-image img{
+    box-sizing: border-box;
+    height:200px;
+    
+}
+#whatsappicon{
+    /* height:70px; */
+    height:70px;
+    border-radius:50%; 
+}
+
+
+   #listicon ul li::after {
+    content: '';
+    position: absolute;
+    left: 18px;
+
+    width: 15px;
+    height: 15px;
+
+    background: #ff6d34;
+    margin-top: 9px;
+    /* margin-left: 100px;  */
+    /* margin-left: 0px; */
+    transform: rotate(226deg);
+}  
+
+
+
+#listicon h2{
+    font-size: 40px;
+}
+#listicon ul li{
+    font-size:24px;
+    text-indent: 32px;
+}
+ .heading{
+    color:rgb(16, 16, 61)
+ }
+ #footer{
+    cursor: pointer;
+ }
+section #footerpart2{
+    text-align: center;
+    font-size: 19px;
+}
+/* =============== contact.html ================ */
+#contact{
+    font-size: 70px;
+    padding-top: 64px;
+
+}
+.enquiry-heading{
+    font-size: 40px;
+    text-align: center;
+    color:white;
+}
+
+
+
+.image-contact{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+.content{
+    font-size: 17px;
+    text-indent: 19px;
+   
+ 
+    
+}
+
+ .imageenquiry{
+    box-sizing: border-box;
+    width:100%;
+    /* width:625px; */
+    height:465px;
+}
+
+ 
+  .enquiry-form {
+    position: absolute;
+    left:px;
+    top:-350px;
+    z-index:-1;
+  } 
+
+  .no-gutter > [class*="col-"] {
+            padding-right: 0;
+            padding-left: 0;
+  }
+  
+  .mapleftcontent,iframe{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(132, 130, 130, 0.19);
+  }
+
+  .imagecol,.formcol{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(185, 183, 183, 0.19);
+  }
+  .card-body .contactcard1{
+    padding-left: 89px;
+  }
+
+
+
+  /*=========== about section========== */
+
+   .listicon ul li {
+     font-size: 18px;
+   }
+
+   .img-fluids{
+   border-radius: 50%;
+    width:100%;
+    height: 300px;
+   }
+   .abouttitle{
+    font-size: 54px;
+   }
+/* ======================================== */
+#noshow{
+    display:none;
+}
+ .bg-darks{
+    background: rgb(0, 0, 5);
+
+}
+
+ .dropdown .dropdown-toggle{
+    color:white;
+}
+   
